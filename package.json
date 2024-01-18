@@ -1,0 +1,16 @@
+{
+  "name": "curso-cypress",
+  "version": "1.0.0",
+  "description": "Praticando testes automatizados com Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Karen Stackoski",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^13.6.3",
+    "cypress-xpath": "^2.0.1"
+  },
+  "keywords": []
+}

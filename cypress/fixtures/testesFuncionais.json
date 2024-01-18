@@ -1,0 +1,17 @@
+{
+    "login": {
+        "email": "karen@deps",
+        "senha": "deps"
+    },
+    "conta": {
+        "nome": "Conta teste",
+        "nomeAlterar": "Conta testando"
+    },
+    "movimentacao": {
+        "descricao": "Energia",
+        "valor": 150.00,
+        "interessado": "Karen Stackoski",
+        "conta": "Conta testando",
+        "dataPagamento": "2024-01-20"
+    }
+}
