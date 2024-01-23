@@ -10,7 +10,8 @@ const locators = {
         NOME: '[data-test="nome"]',
         BTN_SALVAR: '.btn',
         ALTERA_NOME: 'tbody > :nth-child(2) > :nth-child(2) > :nth-child(1) > .far',
-        ERROR_MESSAGE: '.toast-message'
+        ERROR_MESSAGE: '.toast-message',
+        FN_XP_BTN_ALTERAR: (nome) => `//table//td[contains(., '${nome}')]/..//i[@class='far fa-edit']`,
     },
     MOVIMENTACAO: {
         ACESSO_MOV: '[data-test=menu-movimentacao]',
@@ -24,7 +25,8 @@ const locators = {
         SALVAR: '[alt=Salvar]',
         VALIDA_MOV: '.list-group > :nth-child(2) div div div span',
         ACESSO_EXTRATO: 'a[href="/extrato"]',
-        REMOVE_MOV: '.list-group > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2)'
+        REMOVE_MOV: '.list-group > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2)',
+        FN_XP_LINHA: (desc) => `//span[contains(., '${desc}')]/../../../..`
     },
     CALCULO: {
         LINHA1: 'tbody > :nth-child(1) > :nth-child(2)',
